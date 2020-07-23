@@ -9,8 +9,8 @@ from nltk.corpus import stopwords
 
 nltk.download('wordnet')
 nltk.download('stopwords')
-os.environ['DIALOGFLOW_PROJECT_ID'] = 'mathbot-tknknr'
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'mathbot-tknknr-fec2d16f91f3.json'
+os.environ['DIALOGFLOW_PROJECT_ID'] = ' '
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = ' '
 
 
 replace_by_space_re = re.compile('[/(){}\[\]\|@,;]')
