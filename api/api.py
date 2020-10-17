@@ -6,7 +6,7 @@ import json
 import nltk
 import re
 from nltk.corpus import stopwords
-
+temp=0
 nltk.download('wordnet')
 nltk.download('stopwords')
 os.environ['DIALOGFLOW_PROJECT_ID'] = ' '
@@ -83,4 +83,3 @@ def send_message():
             project_id, "unique", message, 'en')
         response_text = {"message":  fulfillment_text}
         return jsonify(response_text)
-    f=10.5
