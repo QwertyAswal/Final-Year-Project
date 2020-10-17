@@ -83,3 +83,4 @@ def send_message():
             project_id, "unique", message, 'en')
         response_text = {"message":  fulfillment_text}
         return jsonify(response_text)
+    f=10.5
